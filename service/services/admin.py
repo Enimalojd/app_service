@@ -13,5 +13,5 @@ class PlanAdmin(admin.ModelAdmin):
 
 
 @admin.register(Subscription)
-class PlanAdmin(admin.ModelAdmin):
+class SubscriptionAdmin(admin.ModelAdmin):
     list_display = ['client', 'service', 'plan']
